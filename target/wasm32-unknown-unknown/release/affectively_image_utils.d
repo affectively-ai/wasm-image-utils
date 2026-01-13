@@ -1,1 +1,0 @@
-E:\emotions\open-source\wasm-image-utils\target\wasm32-unknown-unknown\release\affectively_image_utils.wasm: E:\emotions\open-source\wasm-image-utils\src\lib.rs E:\emotions\open-source\wasm-image-utils\src\validation.rs
