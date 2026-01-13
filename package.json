@@ -1,0 +1,36 @@
+{
+    "name": "@affectively/wasm-image-utils",
+    "version": "1.0.0",
+    "description": "High-performance WebAssembly image utilities - Base64 encoding/decoding, validation, format detection.",
+    "main": "pkg/wasm_image_utils.js",
+    "types": "pkg/wasm_image_utils.d.ts",
+    "files": [
+        "pkg",
+        "src",
+        "Cargo.toml",
+        "LICENSE",
+        "README.md"
+    ],
+    "scripts": {
+        "build": "wasm-pack build --target web --out-dir pkg",
+        "build:node": "wasm-pack build --target nodejs --out-dir pkg-node",
+        "test": "cargo test"
+    },
+    "keywords": [
+        "wasm",
+        "webassembly",
+        "image",
+        "base64",
+        "validation",
+        "rust"
+    ],
+    "author": "AFFECTIVELY <opensource@affectively.app>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/affectively-ai/wasm-image-utils.git"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}
