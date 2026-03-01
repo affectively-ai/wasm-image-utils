@@ -1,6 +1,6 @@
 {
   "name": "@affectively/wasm-image-utils",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "High-performance WebAssembly image utilities - Base64 encoding/decoding, validation, format detection.",
   "main": "pkg/wasm_image_utils.js",
   "types": "pkg/wasm_image_utils.d.ts",
@@ -25,7 +25,7 @@
     "rust"
   ],
   "author": "AFFECTIVELY <opensource@affectively.ai>",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/affectively-ai/wasm-image-utils.git"
