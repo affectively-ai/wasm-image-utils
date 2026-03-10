@@ -1,6 +1,6 @@
 {
   "name": "@affectively/wasm-image-utils",
-  "version": "1.0.3",
+  "version": "5.0.0",
   "description": "High-performance WebAssembly image utilities - Base64 encoding/decoding, validation, format detection.",
   "main": "pkg/wasm_image_utils.js",
   "types": "pkg/wasm_image_utils.d.ts",
