@@ -1,16 +1,15 @@
 # @affectively/wasm-image-utils
 
-High-performance WebAssembly image utilities written in Rust.
+`@affectively/wasm-image-utils` is a Rust/WebAssembly module for lightweight image utility work.
 
-[![npm](https://img.shields.io/npm/v/@affectively/wasm-image-utils.svg)](https://www.npmjs.com/package/@affectively/wasm-image-utils)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+The fair brag is its simplicity. This package gives you a few useful image-adjacent operations without asking you to bring in a much larger image-processing dependency.
 
-## Features
+## What It Helps You Do
 
-- **Base64 Encoding/Decoding** - Fast Base64 operations for images
-- **Format Detection** - Detect image format from magic bytes
-- **Validation** - Validate image data integrity
-- **Dimension Extraction** - Get width/height from image headers
+- encode and decode base64
+- detect image formats from bytes
+- validate image payloads
+- read dimensions from headers
 
 ## Installation
 
@@ -20,20 +19,20 @@ npm install @affectively/wasm-image-utils
 
 ## Quick Start
 
-```typescript
-import init, { encode_base64, decode_base64, detect_format } from '@affectively/wasm-image-utils';
+```ts
+import init, {
+  encode_base64,
+  decode_base64,
+  detect_format,
+} from '@affectively/wasm-image-utils';
 
 await init();
 
 const base64 = encode_base64(imageBytes);
 const bytes = decode_base64(base64String);
-const format = detect_format(imageBytes); // "png", "jpeg", "gif", etc.
+const format = detect_format(imageBytes);
 ```
 
-## License
+## Why This README Is Grounded
 
-MIT License
-
----
-
-Made with ️ by [AFFECTIVELY](https://affectively.ai)
+Image Utils does not need to be more than a helper package. The strongest fair brag is that it already gives you a compact WASM layer for a few common image operations.
